@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nginx-html
+data:
+  index.html: |
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <meta charset="utf-8" />
+      <title>Hola desde Kubernetes</title>
+    </head>
+    <body>
+      <h1>Hola 👋, este es mi primer despliegue en Kubernetes 🚀</h1>
+      <p>Aprendiendo sobre Kubernetes.</p>
+    </body>
+    </html>
